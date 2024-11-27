@@ -23,13 +23,30 @@ select {
     outline: none;
 }
 header{
-    background-color: #FDECDE;
+    background-color:#FDECDE;
     width: 100vw;
     height: 3.8vw;
     display: flex;
-    align-items: center;
+}
+header nav a{
+    color: #FDECDE;
+    font-size: 1rem;
+    background-color: #2b4a56;
+    padding: 0.3rem;
+    border-radius: 5px;
 }
 
 #logo{
     width: 15rem;
+}
+
+form {
+    display: flex; /* Colocar os selects em linha */
+    align-items: center; /* Alinhar os selects verticalmente */
+}
+
+form select {
+    margin-left: 1rem; /* Espaço entre os selects */
+    padding: 0.8rem;
+    font-size: 1rem;
 }
