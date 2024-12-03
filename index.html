@@ -3,45 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Itim&family=Quicksand:wght@452&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Filosofia</title>
 </head>
 <body>
     <header>
-        <nav>
-            <img id="logo" src="./img/logo.png" alt="logo">
-            <ul>
-                <li><a id="sobre-li" href="#sobreNos">SOBRE NÓS</a></li>
-            </ul>
-            <section id="conteiner-form">
-                <form>
-                    <select name="select-fundamentos" id="fundamentos">
-                        <option value="">FUNDAMENTOS</option>
-                        <option value="cosmologia">Cosmologia</option>
-                        <option value="pre-socraticos">Pré-Socraticos</option>
-                        <option value="metafisica">Metafísica</option>
-                        <option value="estoicismo">Estoicismo</option>
-                        <option value="epistemologia">Epistemologia</option>
-                        <option value="empirismo">Empirismo</option>
-                    </select>
-                    <select name="select-pensadores" id="pensadores">
-                        <option value="">PENSADORES</option>
-                        <option value="hanna-arent">Hannah Arent</option>
-                        <option value="michel-foucault">Michel Foucault</option>
-                        <option value="socrates">Socrates</option>
-                        <option value="aristoteles">Aristóteles</option>
-                        <option value="zenao-de-citio">Zenão De Cítio</option>
-                        <option value="platao">Platão</option>
-                        <option value="nietzsche">Nietzsche</option>
-                    </select>
-                </form>
-            </section>
-        </nav>
+        <img id="logo" src="./img/logo.png" alt="logo">
+        <section id="conteiner-nav">
+            <nav>
+                <ul>
+                    <li><a id="sobre-li" href="#sobre-nos">SOBRE NÓS</a></li>
+                </ul>
+                <section id="conteiner-form">
+                    <form>
+                        <select name="select-fundamentos" id="fundamentos">
+                            <option value="">FUNDAMENTOS</option>
+                            <option value="cosmologia">Cosmologia</option>
+                            <option value="pre-socraticos">Pré-Socraticos</option>
+                            <option value="metafisica">Metafísica</option>
+                            <option value="estoicismo">Estoicismo</option>
+                            <option value="epistemologia">Epistemologia</option>
+                            <option value="empirismo">Empirismo</option>
+                        </select>
+                        <select name="select-pensadores" id="pensadores">
+                            <option value="">PENSADORES</option>
+                            <option value="hanna-arent">Hannah Arent</option>
+                            <option value="michel-foucault">Michel Foucault</option>
+                            <option value="socrates">Socrates</option>
+                            <option value="aristoteles">Aristóteles</option>
+                            <option value="zenao-de-citio">Zenão De Cítio</option>
+                            <option value="platao">Platão</option>
+                            <option value="nietzsche">Nietzsche</option>
+                        </select>
+                    </form>
+                </section>
+            </nav>
+        </section>
     </header>
+    
     <main>
-        <!-- <div>
+        <section id="pag1" class="grupo">
+            <section id="conteiner-pag1">
+                <p>O estudo da filosofia <br>
+                    para a melhor <br>
+                    compreensão do <br>
+                    mundo e a si <br>
+                    mesmo.</p>
+                    <img id="img-caixa" src="./img/pag1-img.png" alt="">
+            </section>
+        </section> 
+        <section id="pag2" class="grupo">
+            <h2>O QUE É FILOSOFIA?</h2>
+            <section id="conteiner-pag2">
+                <p>Estudo fundamental sobre a existência, moral, mente, natureza e o conhecimento. A <br>
+                    filosofia busca a compreenção da realidade, das nossas ações e crenças, assim sendo <br>
+                    uma disciplina que estimula o pensamento crítico, reflexões, debate de forma racional, <br>
+                    ajuda visualizar o mundo e nosso papel no mesmo de forma clara.</p>
+            </section>
+        </section>
+        <section id="pag3" class="grupo">
 
-        </div> -->
+            
+            <section class="periodo">
+                <img id="linha" src="./img/linha.png" alt="">
+                <h2>VII a.C a VI d.C.</h2>
+                <h3>CLÁSSICA</h3>
+                <p>Surgida na Grécia Antiga, serviu aos pensadores da época para 
+                    explicar e desvendar os mitos. Podemos ainda, dividir este período entre os períodos
+                     Pré-Socrático, Clássico e Pós-Socrático.</p>
+            </section>
+        </section>
     </main>
 </body>
 </html>
