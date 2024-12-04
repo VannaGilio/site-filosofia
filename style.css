@@ -136,7 +136,7 @@ header nav a{
 }
 .periodos{
     width: auto;
-    padding: 10rem;
+    padding: 10rem 4rem 10rem 4rem;
     color: #FDECDE;
     display: flex; 
     flex-direction: column; 
@@ -173,6 +173,38 @@ header nav a{
 }
 .contemporanea a{
     color: #FDECDE;
+}
+#sobre-nos{
+    width: 100%;
+    background-color: #2b4a56;
+    display: flex;
+    padding: 4rem;
+    display: flex; 
+    flex-direction: column; 
+    gap: 2.5rem;
+}
+#sobre-nos h2{
+    font-size: 3rem;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 452;
+    color: #FDECDE;
+}
+#sobre-nos p{
+    font-size: 2rem;
+    font-family: "Itim", cursive;
+    color: #FDECDE;
+}
+#eduarda-img{
+    border-radius: 50%;
+    width: 8%;
+}
+#giovanna-img{
+    border-radius: 50%;
+    width: 8%;
+}
+#isabelly-img{
+    border-radius: 50%;
+    width: 8%;
 }
 footer{
     background-color: #FDECDE;
