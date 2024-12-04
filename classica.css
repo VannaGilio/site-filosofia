@@ -1,0 +1,389 @@
+/* reset */
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ ul, ol,li{
+ list-style: none;
+
+}
+ 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:  #2B4A56;
+}
+ 
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #FDECDE;
+    width: 99vw;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw;
+}
+
+header nav a{
+    color: white;
+    padding: 1.3vh;
+    border-radius: 2vh;
+    font-size: 3vh;
+    font-style: unset;
+}
+
+header nav a:hover{
+    background-color: #2B4A56;/* para ficar contornado. Para ficar sem contorno [e só deixar a cor*/   
+  /* /se nao quiser que mude a cor, mas sublinhe é so usar bottom-border 4px tomato/ */
+}
+
+select {
+    cursor: pointer;
+    background-color: #2b4a56;
+    color:#FDECDE;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 1.5rem; 
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    font-family: "Inter", sans-serif;
+
+}
+header{
+    background-color:#FDECDE;
+    width: 100vw;
+    height: 3.8vw;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav a{
+    color: #FDECDE;
+    font-size: 0.8em;
+    background-color: #2b4a56;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+#logo{
+    width: 28vh;
+    padding: 0.8rem;
+    align-items: flex-start;
+} 
+#conteiner-nav{
+    width: 75%;
+    padding-right: 3rem;
+}
+
+.descricao{
+    font-size: 3vh;
+    color: #2B4A56;
+    font-style: normal;
+    margin-left: 3vh;
+    margin-top: 1vh;
+}
+
+
+.filosofia img{
+    margin-left: 6vh;
+    margin-top: 1vh;
+}
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 2.6vh;
+    font-style: italic;
+    width: 80%;
+    margin-left: 113vh;
+    margin-top: 10vh;
+    color: #FDECDE;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+.conteudos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FDECDE;
+}
+
+#conteudo1 h1{
+    font-size: 6vh;
+    margin-top: -16vh;
+    margin-left: 6vw;
+}
+
+#conteudo1 h2{
+    font-size:3vh;
+    margin-left: 8vw;
+    margin-bottom: 9vh;
+}
+#conteudo1 p{
+    font-size: 3vh;
+    width: 80vh;
+    font-style: italic;
+    margin-bottom:13vh;
+    margin-left: 6vw;
+}
+
+.texto2{
+    font-size: 2.6vh;
+}
+
+.texto2 p{
+    width: 90vh;
+}
+
+.destaque{
+    background-repeat: no-repeat;
+}
+
+.destaque img{
+    width: 80vh;
+    height: 40vh;
+    background-repeat: no-repeat;   
+    align-items:  center; 
+    display:flex;
+    position: relative;
+    right: -90vh;
+    top: -53vh;
+    position: relative;
+    margin-left: 23vh;
+}
+
+.periodos h1{
+    font-size: 6vh;
+    margin-top: -92vh;
+    margin-left: 8vw;
+    margin-bottom: 10vh;
+}
+
+.periodo1{
+    font-size: 2.6vh;
+    margin-left: 8vw;
+    margin-bottom: 20vh;
+
+}
+
+.periodo2{
+    font-size: 2.6vh;
+    margin-left: 8vw;
+    margin-bottom: 20vh;
+}
+
+.periodo3{
+    font-size: 2.6vh;
+    margin-left: 8vw;
+}
+
+.pre{
+    width: 100vh;
+    font-size: 3vh;
+    margin-left: 33vw;
+    margin-top: -56vh;
+}
+
+.classico{
+    width: 100vh;
+    font-size: 3vh;
+    margin-left: 68.6vh;
+    margin-top: 5vw;
+}
+
+.pos{
+    width: 102vh;
+    font-size: 3vh;
+    margin-left: 32.6vw;
+    margin-top: 10vh;
+}
+
+#conteudo2 img{
+    width: 206vh;
+    height: 100vh;
+    opacity:50%;
+}
+
+#conteudo3{
+    width: 207vh;
+    height: 100vh;
+}
+
+.titulo h1{
+    font-size: 6vh;
+    margin-top: 15vh;
+    margin-left: 6vw;
+}
+
+.imagens img{
+    margin-top: 8vh;
+    margin-left: 18vh;
+    padding-right: 40vh;
+}
+
+.metafisica{
+    font-size: 3.7vh;
+    font-style: normal;
+    margin-top: 3vh;
+    margin-left: 23vh;
+    padding-right: 40vh;
+}
+
+.cosmologia{
+    font-size: 3.7vh;
+    font-style: normal;
+    margin-top: -3.8vh;
+    margin-left: 88vh;
+    padding-right: 40vh;
+}
+
+.estoicismo{
+    font-size: 3.6vh;
+    font-style: normal;
+    margin-top: -4vh;
+    margin-left: 153vh;
+    padding-right: 40vh;
+}
+
+.paragrafo1{
+    width: 30vh;
+    font-size: 2vh;
+    margin-left: 11vw;
+    margin-top: 3vh;
+}
+
+.paragrafo2{
+    width: 33vh;
+    font-size: 2vh;
+    margin-left: 42.1vw;
+    margin-top: -32vh;
+}
+
+.paragrafo3{
+    width: 32vh;
+    font-size: 2vh;
+    margin-left: 73.2vw;
+    margin-top: -32vh;
+}
+
+.linha1{
+    margin-left: 20vh;
+    margin-top: 7vh;
+}
+
+.linha2{
+    margin-left: 86vh;
+    margin-top: -1.5vh;
+}
+
+.linha3{
+    margin-left: 152vh;
+    margin-top: -1.3vh;
+}
+
+footer{
+    background-color: #FDECDE;
+    color: black;
+    height: 10vh;
+    width: 99.1vw;
+    margin-top: -10vh;
+    font-size: 3vh;
+    font-style: italic;
+}
+
+footer h2{
+    margin-left: 53vh;
+    margin-top: 2vh;
+    font-size: 4.7vh;
+}
+
+footer p{
+    margin-left: 165vh;
+    font-size: 2vh;
+    margin-top: -3vh;
+    font-style: italic;
+}
+
+
+/* Responsividade para Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header nav ul {
+        justify-content: space-between;
+        padding: 2vw;
+    }
+
+    header nav a {
+        font-size: 2vh;
+    }
+
+    .descricao {
+        font-size: 2.5vh;
+        margin-left: 2vw;
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .conteudos {
+        width: 90%;
+    }
+
+    .conteudos h1 {
+        font-size: 5vh;
+    }
+
+    .conteudos h2 {
+        font-size: 3vh;
+    }
+
+    .conteudos p {
+        font-size: 2.5vh;
+    }
+
+    .destaque img {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    footer h2 {
+        font-size: 3vh;
+    }
+
+    footer p {
+        font-size: 1.8vh;
+    }
+}
