@@ -375,7 +375,6 @@ footer h2{
         height: 7.8vw;
         display: flex;
         align-items: center;
-        border: solid #000000;
     }
     select {
         margin-left: 1.5rem; 

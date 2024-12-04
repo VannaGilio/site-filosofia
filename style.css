@@ -238,54 +238,26 @@ footer h2{
 @media (max-width: 640px) {
 
     #logo {
-        width: 20vh;
-        display: flex;
+        width: 18vh;
+        padding: 0.8rem;
         align-items: flex-start;
     }
-
-
     header {
-        height: 3rem;
-        padding: 0;
-        flex-direction: row;
+        height: 7.8vw;
         display: flex;
         align-items: center;
     }
-    nav {
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-    }
     header nav a {
-        width: auto;
-        font-size: 0.5rem;
-        padding: 0.3rem;
+        font-size: 0.6rem;
     }
-
-    #conteiner-nav{
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        display: flex;
-    }
-
-    li, ul{
-      width: 100%;  
-    }
-
     select{
-        width: 30%;
-        height: 1rem;
-        color: #FDECDE;
-        flex-direction: row;
-        margin: 0;
+        margin-left: 1.5rem; 
+        padding: 0.7rem;
+        font-size: 0.5rem;
     }
-
     .grupo {
         height: 100vh;
     }
-
-    /* Ajustando a largura da imagem na página 1 */
     #conteiner-pag1 {
         width: 70%;
         height: 25vh;
@@ -298,56 +270,42 @@ footer h2{
         font-size: 1rem;
         padding: 1.5rem;
     }
-
-    /* Ajustando a página 2 */
     #pag2 h2 {
         font-size: 2rem;
         padding-right: 0;
         padding-bottom: 2rem;
     }
-
     #conteiner-pag2 p {
         font-size: 1.4rem;
         padding: 1rem;
     }
-
-    /* Ajustando a página 3 */
     #pag3 {
         padding: 2rem;
     }
-
-    /* Ajustando o texto nas seções de Filosofia (classica, moderna, contemporânea) */
     .classica, .moderna, .contemporanea {
         width: 100%;
         padding-top: 2rem;
     }
-
     .classica p, .moderna p, .contemporanea p {
         font-size: 1.8rem;
     }
-
     .classica a, .moderna a, .contemporanea a {
         font-size: 2.2rem;
     }
-
-    /* Ajustando a seção "Sobre Nós" */
     #sobre-nos {
         padding: 2rem;
         flex-direction: column;
         gap: 1rem;
     }
-
     #sobre-nos h2 {
         font-size: 2.5rem;
     }
-
     #sobre-nos p {
         font-size: 1.6rem;
     }
-
-    /* Ajustando o rodapé */
     footer h2 {
-        font-size: 2rem;
+        height: auto;
+        font-size: 1.5rem;
         padding: 1rem;
     }
 } 

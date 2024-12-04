@@ -113,8 +113,31 @@ footer h2{
     border: solid #000000;
     padding: 0;
 }
-@media (max-width: 640px){
-    #rolagem{
-        width: 80%;
+@media (max-width: 640px) {
+
+    #logo {
+        width: 18vh;
+        padding: 0.8rem;
+        align-items: flex-start;
+    }
+    header {
+        height: 7.8vw;
+        display: flex;
+        align-items: center;
+    }
+    header nav a {
+        font-size: 0.6rem;
+        border: solid #000000;
+    }
+    select{
+        margin-left: 1.5rem; 
+        padding: 0.5rem;
+        font-size: 0.5rem;
+        border: solid #000000;
+    }
+    footer h2 {
+        height: auto;
+        font-size: 1.5rem;
+        padding: 1rem;
     }
 }
