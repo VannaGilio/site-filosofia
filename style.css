@@ -19,14 +19,15 @@ select {
     cursor: pointer;
     background-color: #2b4a56;
     color:#FDECDE;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     outline: none;
     margin-left: 1.5rem; 
-    padding: 0.4rem;
+    padding: 0.7rem;
     font-size: 0.8rem;
     font-family: "Inter", sans-serif;
-
+    border: solid #000000;
+    gap: 0;
 }
 header{
     background-color:#FDECDE;
@@ -45,9 +46,11 @@ header nav a{
     color: #FDECDE;
     font-size: 0.8em;
     background-color: #2b4a56;
-    padding: 0.5rem;
-    border-radius: 5px;
+    padding: 0.72rem;
+    border-radius: 7px;
     font-family: "Inter", sans-serif;
+    border: solid #000000;
+
 }
 #logo{
     width: 28vh;
