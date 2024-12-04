@@ -6,43 +6,40 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
-
 a{
     text-decoration: none;
 }
-
-ul, ol, li{
+ul, ol,li{
     list-style: none;
 }
+
 html, body{
-    padding: 0;
     margin: 0;
     scroll-behavior: smooth;
     font-size: 16px;
 }
 
-header{
-    background-color: #FDECDE;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    height: 3.8vw;
-    width: 10vw;
-    display: flex;
-    align-items: center;
-    border: solid #000000
-}
 select {
     cursor: pointer;
     background-color: #2b4a56;
     color:#FDECDE;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     outline: none;
     margin-left: 1.5rem; 
-    padding: 0.4rem;
+    padding: 0.7rem;
     font-size: 0.8rem;
     font-family: "Inter", sans-serif;
-
+    border: solid #000000;
+    gap: 0;
+}
+header{
+    background-color:#FDECDE;
+    width: 100%;
+    height: 3.8vw;
+    display: flex;
+    align-items: center;
+    border: solid #000000;
 }
 nav{
     display: flex;
@@ -53,9 +50,11 @@ header nav a{
     color: #FDECDE;
     font-size: 0.8em;
     background-color: #2b4a56;
-    padding: 0.5rem;
-    border-radius: 5px;
+    padding: 0.72rem;
+    border-radius: 7px;
     font-family: "Inter", sans-serif;
+    border: solid #000000;
+
 }
 #logo{
     width: 28vh;
@@ -130,7 +129,7 @@ header nav a{
 }
 
 #caracteristicas1{
-    padding-top: 5vh;
+    padding-top: 6vh;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 8vh;
@@ -153,7 +152,7 @@ header nav a{
     margin-top: 2vh;
 
 }
-.texto3 li{
+.texto2 li{
     list-style: inside;
     font-family: "Itim", cursive;
     font-size: 3vh;
@@ -297,4 +296,76 @@ header nav a{
     font-weight: 400;
     font-style: normal;
     color: black;
+}
+#filosofiaP{
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 5vh;
+    height: 95vh;
+}
+
+.margem{
+    padding-top: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #2B4A56;
+    border:  1.5vw solid #FDECDE;
+    border-radius: 2vw;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.conteudo{
+    height: 100%;
+    width: 50%;
+    margin-right: 2vw;
+}
+.destaque{
+    height: 100%;
+    width: 50%;
+}
+.destaque img{
+    margin-top: 19vh;
+    height: 50vh;
+    width: 44vw;
+}
+.titulo1 h1 {
+    font-family: "Irish Grover", serif;
+    font-size: 6vh;
+    color: #FDECDE;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.texto4 h3{
+    font-family: "Itim", cursive;
+    font-size: 3vh;
+    margin-top: 5vh;
+    font-weight: 400;
+    font-style: normal;
+    color: #FDECDE;
+}
+.texto4 li{
+    list-style: inside;
+    font-family: "Itim", cursive;
+    font-size: 3vh;
+    margin-top: 2vh;
+    color: #FDECDE;
+}
+.texto4 a{
+        color: #FDECDE;   
+}
+footer{
+    background-color: #FDECDE;
+    padding: 0.7rem;
+    height: 5.5rem;
+    text-align: center;
+    align-items: center;
+}
+footer h2{
+    font-size: 3rem;
+    border: solid #000000;
+    padding: 0;
+    font-family: "Irish Grover", system-ui;
 }
