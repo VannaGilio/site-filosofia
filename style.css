@@ -34,6 +34,7 @@ header{
     height: 3.8vw;
     display: flex;
     align-items: center;
+    border: solid #000000;
 }
 nav{
     display: flex;
@@ -133,18 +134,56 @@ header nav a{
     background-color: #2b4a56;
     display: flex;
 }
-#linha{
-   width: 10.5rem;
+.periodos{
+    width: auto;
+    padding: 10rem;
+    color: #FDECDE;
+    display: flex; 
+    flex-direction: column; 
+    gap: 5rem;
 }
-.periodo{
-    display: flex;
-    align-content: space-around;
+.periodos h2{
+    font-size: 3rem;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 452;
+}
+.periodos h3{
+    font-size: 2.4rem;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 452;
 }
 
-.classica{
-    width: 100%;
-    height: 100%;
+.classica p{
+    font-size: 2rem;
+    font-family: "Itim", cursive;
 }
-#classica{
-    height: 100%;
+.classica a{
+    color: #FDECDE;
+}
+.moderna p{
+    font-size: 2rem;
+    font-family: "Itim", cursive;
+}
+.moderna a{
+    color: #FDECDE;
+}
+.contemporanea p{
+    font-size: 2rem;
+    font-family: "Itim", cursive;
+}
+.contemporanea a{
+    color: #FDECDE;
+}
+footer{
+    background-color: #FDECDE;
+    padding: 0.7rem;
+    height: 5.5rem;
+    text-align: center;
+    align-items: center;
+}
+footer h2{
+    font-size: 3rem;
+    border: solid #000000;
+    padding: 0;
+    font-family: "Irish Grover", system-ui;
 }
