@@ -424,7 +424,7 @@ footer h2{
         font-size: 2.4vh;
     }
     .texto1 h3{
-        width: 95%;
+        width: 97%;
         font-size: 2.5vh;
         margin-top: 1vh;
     }
@@ -535,7 +535,8 @@ footer h2{
         color: black;
     }
     .sitacao h4{
-        font-size: 2vh;
+        font-size: 1.5vh;
+        margin-left: 3vw;
     }
     #filosofiaP{
        
@@ -558,7 +559,7 @@ footer h2{
     .destaque2{
         width: 100%;
         height: 30%;
-        margin-top: 0vh;
+        margin-top: 2vh;
     }
     .destaque2 img{
         width: 80%;
