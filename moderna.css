@@ -173,6 +173,14 @@ header nav a{
     padding-bottom: 8vh;
     
 }
+.titulo3 h1{
+    font-family: "Irish Grover", serif;
+    font-size: 6vh;
+    color: #FDECDE;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 2vw;
+}
 .cartoes{
     display: flex;
     justify-content: space-between;
@@ -232,11 +240,13 @@ header nav a{
     padding-bottom: 8vh;
     
 }
-.cartoes{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 6vw;
-    padding-right: 6vw;
+.titulo4 h1{
+    font-family: "Irish Grover", serif;
+    font-size: 6vh;
+    color: #FDECDE;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 2vw;
 }
 .retangulo5{
     background-color: #FDECDE;
@@ -321,16 +331,16 @@ header nav a{
     width: 50%;
     margin-right: 2vw;
 }
-.destaque{
+.destaque2{
     height: 100%;
     width: 50%;
 }
-.destaque img{
+.destaque2 img{
     margin-top: 19vh;
     height: 50vh;
     width: 44vw;
 }
-.titulo1 h1 {
+.titulo5 h1 {
     font-family: "Irish Grover", serif;
     font-size: 6vh;
     color: #FDECDE;
@@ -371,24 +381,195 @@ footer h2{
 }
 
 @media(max-width: 640px){
-    header{
-        height: 7.8vw;
-        display: flex;
-        align-items: center;
-    }
-    select {
-        margin-left: 1.5rem; 
-        padding: 0.7rem;
-        font-size: 0.5rem;
-    }
-    #logo{
+    #logo {
         width: 18vh;
         padding: 0.8rem;
         align-items: flex-start;
     }
+    header {
+        height: 7.8vw;
+        display: flex;
+        align-items: center;
+    }
+    header nav a {
+        font-size: 0.6rem;
+    }
+    select{
+        margin-left: 1.5rem; 
+        padding: 0.7rem;
+        font-size: 0.5rem;
+    }
+    #inicio{
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
     .margem{
         padding-top: 1vh;
+        padding-left: 4vw;
+        padding-right: 2vw;
+        display: block;
+        border:  2vw solid #FDECDE;
+        border-radius: 8vw;
+        margin-top: 2vh;
+    }
+    .conteudo{
+        width: 100%;
+        height: 65%;
+        margin-left: 1vw;
+    }
+    .titulo1 h1{
+        font-size: 4vh;
+    }
+    .titulo1 h2{
+        font-size: 2.4vh;
+    }
+    .texto1 h3{
+        width: 95%;
+        font-size: 2.5vh;
+        margin-top: 1vh;
+    }
+
+    .destaque{
+        width: 100%;
+        height: 33%;
+        margin-top: 0vh;
+    }
+    .destaque img{
+        width: 90%;
+        height: 100%;
+        margin-top: 0vh;
+        margin-left: 3vw;
+    }
+    #caracteristicas1{
+        padding-top: 3vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-bottom: 3vh;
+        display: block;
+    }
+    .titulo2 h1{
+        margin-left: 25vw;
+        font-size: 4vh;
+    }
+    .retangulo1{
+        padding-bottom: 0vh;
+        padding-top: 0vh;
+        margin-top: 1vh;
+    }
+    .texto2 li{
+        font-size: 2.5vh;
+    }
+    .texto2 h3{
+        font-size: 2.5vh;
+    }
+    .imagem2{
+        display: none;
+    }
+    .titulo3 h1{
+        margin-left: 25vw;
+        font-size: 4vh;
+        margin-top: 1vh;
+    }
+    .cartoes{
+        display: block;
         padding-left: 2vw;
         padding-right: 2vw;
+    }
+    .retangulo2{
+        width: 100%;
+        height: 22vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+    .retangulo3{
+        width: 100%;
+        height: 22vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+    .retangulo4{
+        width: 100%;
+        height: 21vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+    .texto3 h3{
+        font-size: 2.5vh;
+        width: 95%;
+    }
+    .texto3 li{
+        font-size: 2.5vh;
+    }
+    .titulo4 h1{
+      display: none;
+    }
+    .retangulo5{
+        width: 100%;
+        height: 22vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+    .retangulo6{
+        width: 100%;
+        height: 22vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+    .retangulo7{
+        width: 100%;
+        height: 22vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+    .sitacao{
+        margin-left: 60vw;
+        margin-top: 5vh;
+        width: 38vw;
+        height: 8vh;
+        padding-top: 1vh;
+    }
+    .sitacao h3{
+        font-size: 2.5vh;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+    }
+    .sitacao h4{
+        font-size: 2vh;
+    }
+    #filosofiaP{
+       
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 5vh;
+        height: 95vh;
+    }
+    .titulo5 h1{
+        font-size: 4vh;
+        margin-left: 18vw;
+    }
+    .texto4 h3{
+        font-size: 2.3vh;
+        margin-top: 0vh;
+    }
+    .texto4 li{
+        font-size: 2.3vh;
+    }
+    .destaque2{
+        width: 100%;
+        height: 30%;
+        margin-top: 0vh;
+    }
+    .destaque2 img{
+        width: 80%;
+        height: 100%;
+        margin-top: 1vh;
+        margin-left: 8vw;
+    }
+   
+    footer h2 {
+        height: auto;
+        font-size: 1.5rem;
+        padding: 1rem;
     }
 }
